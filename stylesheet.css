@@ -1,0 +1,54 @@
+/*INDENT SECTIONS*/	
+label {
+	width: 180px;
+	text-align: right;
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*AUTO WIDTH FOR RADIO AND CHECKBOX INPUT TYPES*/
+label[for='male'], label[for='female'], label[for='email2'], label[for='whatsapp'], label[for='inappChat'] {
+	width: auto;
+}
+
+/*SET TEXT COLOR OF NAME TEXT FIELD TO GREY*/
+input[name='fullName'] {
+	color: grey;
+}
+
+/*SHORTEN SIZE OF AGE TEXT FIELD*/
+input[name='age'] {
+	width: 50px;
+}
+
+/*STYLING EACH SECTION: YELLOW BORDERS, LIGHT YELLOW BACKGROUND, SPACE BTWN SECTIONS, WIDTH*/
+fieldset {
+	border: 10px solid yellow;
+	background: lightyellow;
+	margin-bottom: 10px;
+	width: 720px;
+}
+
+/*INCREASE TEXT WHEN MOUSE HOVERS OVER*/
+label:hover {
+	font-size: 20px;
+}
+
+/*INCREASE TEXT BOX FOR ADDRESS*/
+textarea {
+	height: 50px;
+	width: 360px;
+}
+
+/*STYLING FOR MIN & MAX of RANGE INPUT TYPES*/
+#min {
+	background-color: maroon;
+	color: white;
+	padding: 0px 10px 0px 10px;
+}
+
+#max {
+	background-color: purple;
+	color: white;
+	padding: 0px 10px 0px 10px;
+}
